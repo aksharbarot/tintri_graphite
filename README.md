@@ -11,3 +11,18 @@ Simple call the script with the appropriate credentials as follows:
 ```
 python graphite_tintry.py [vmstore_fqdn] [username] [password]
 ```
+
+The script can be sent to the background or run with a screen session as it will poll the vmstore a set interval.  
+
+You'll also need a storage schema stanza such as:
+
+```
+[tintri]
+pattern = ^tintri\.
+retentions = 5s:7d, 1m:30d, 15m:90d, 1h:3y
+```
+
+## Todo 
+1. Start/stop script
+2. VM level metrics
+3. Better dashboard
