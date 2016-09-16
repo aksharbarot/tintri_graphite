@@ -6,6 +6,8 @@ Simple example to pull stats from a Tintri VMstore and pipe them to graphite.
 ## Requirements
 1. Python
 2. Tintri API examples
+3. graphite (local or remote)
+4. grafana 3.x (local or remote)
 
 ## Install
 Download and install [Tintri's API examples](https://github.com/Tintri/tintri-api-examples) and place tintri_graphite.py in the same dir.  
