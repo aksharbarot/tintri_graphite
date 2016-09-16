@@ -18,7 +18,7 @@ python graphite_tintry.py [vmstore_fqdn] [username] [password]
 
 The script can be sent to the background or run with a screen session as it will poll the vmstore a set interval.  
 
-You'll also need a storage schema stanza such as:
+You'll also need a graphite storage schema stanza such as:
 
 ```
 [tintri]
