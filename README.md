@@ -8,7 +8,7 @@ Simple example to pull stats from a Tintri VMstore and pipe them to graphite.
 2. Tintri API examples
 
 ## Install
-Download and install [Tintri's API examples](https://github.com/Tintri/tintri-api-examples) and place this python script in the same dir.  
+Download and install [Tintri's API examples](https://github.com/Tintri/tintri-api-examples) and place tintri_graphite.py in the same dir.  
 ## Usage
 Simple call the script with the appropriate credentials as follows:
 
