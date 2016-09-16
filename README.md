@@ -23,6 +23,7 @@ retentions = 5s:7d, 1m:30d, 15m:90d, 1h:3y
 ```
 
 ## Todo 
-1. Start/stop script
+1. Capacity metrics
 2. VM level metrics
+3. Start/stop script
 3. Better dashboard
